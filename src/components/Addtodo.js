@@ -17,10 +17,10 @@ export class Addtodo extends Component {
 
     render() {
         return (
-           <form onSubmit={this.onSubmit} style={{display: 'flex'}}>
+           <form onSubmit={this.onSubmit} style={{display: 'flex', margin: '30px, 0px'}}>
                <input type="text" 
                name = "title"   
-               style={{flex : '10', padding: '5px'}} 
+               style={{flex : '10', padding: '10px'}} 
                placeholder = "Add Todo..."
                value = {this.state.title}
                onChange = {this.onChange}/>
